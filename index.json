@@ -1,0 +1,614 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "手绘风官方写作插件市场（Obsidian 兼容）",
+    "en": "Handraw Official Writing Plugins Market (Obsidian Compatible)"
+  },
+  "description": {
+    "zh": "精选并标注手绘风兼容评级的 Obsidian 写作、公众号排版、图床与知识管理插件，热门插件内置国内 Gitee 镜像直下加速，支持社区 PR 投稿。",
+    "en": "Curated Obsidian writing & publishing plugins with Handraw compatibility ratings, domestic Gitee mirrors, and community PR validation."
+  },
+  "mirrors": {
+    "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/index.json",
+    "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/index.json"
+  },
+  "metadata": {
+    "categories": {
+      "wechat": {
+        "title": {
+          "zh": "公众号与发布",
+          "en": "WeChat & Publishing"
+        }
+      },
+      "writing": {
+        "title": {
+          "zh": "写作与排版",
+          "en": "Writing & Formatting"
+        }
+      },
+      "knowledge": {
+        "title": {
+          "zh": "知识库与模板",
+          "en": "Knowledge & Templates"
+        }
+      },
+      "media": {
+        "title": {
+          "zh": "图床与白板",
+          "en": "Media & Canvas"
+        }
+      }
+    },
+    "compatLevels": {
+      "verified": {
+        "title": {
+          "zh": "手绘风实测兼容",
+          "en": "Verified Compatible"
+        }
+      },
+      "partial": {
+        "title": {
+          "zh": "部分兼容",
+          "en": "Partially Compatible"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "id": "note-to-mp",
+      "version": "2.4.2",
+      "name": "NoteToMP 公众号排版",
+      "author": "sunbooshi",
+      "license": "MIT",
+      "description": "热门微信公众号排版与草稿同步插件，支持多套主题、代码高亮、图床与素材直传。",
+      "repo": "sunbooshi/note-to-mp",
+      "homepage": "https://github.com/sunbooshi/note-to-mp",
+      "downloads": 26848,
+      "categories": [
+        "wechat"
+      ],
+      "featured": true,
+      "featuredTag": "公众号排版",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      }
+    },
+    {
+      "id": "mp-preview",
+      "version": "1.0.7",
+      "name": "MP Preview 公众号预览",
+      "author": "Yeban8090",
+      "license": "MIT",
+      "description": "轻量级微信公众号实时预览与一键复制富文本插件。",
+      "repo": "Yeban8090/mp-preview",
+      "homepage": "https://github.com/Yeban8090/mp-preview",
+      "downloads": 5422,
+      "categories": [
+        "wechat"
+      ],
+      "featured": true,
+      "featuredTag": "公众号排版",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/mp-preview/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/mp-preview/"
+      }
+    },
+    {
+      "id": "wechat-public-platform",
+      "version": "1.0.10",
+      "name": "微信公众号发布助手",
+      "author": "ai-chen2050",
+      "license": "MIT",
+      "description": "支持 Markdown 一键同步到微信公众号草稿箱与素材库。",
+      "repo": "ai-chen2050/obsidian-wechat-public-platform",
+      "homepage": "https://github.com/ai-chen2050/obsidian-wechat-public-platform",
+      "downloads": 7640,
+      "categories": [
+        "wechat"
+      ],
+      "featured": true,
+      "featuredTag": "公众号发布",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/wechat-public-platform/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/wechat-public-platform/"
+      }
+    },
+    {
+      "id": "wechatpb",
+      "version": "2.4.0",
+      "name": "WeChatPB 公众号多主题排版",
+      "author": "Kianzzz",
+      "license": "MIT",
+      "description": "内置多套公众号排版主题与草稿发布能力。",
+      "repo": "Kianzzz/wechatPB",
+      "homepage": "https://github.com/Kianzzz/wechatPB",
+      "downloads": 0,
+      "categories": [
+        "wechat"
+      ],
+      "featured": true,
+      "featuredTag": "公众号排版",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/wechatpb/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/wechatpb/"
+      }
+    },
+    {
+      "id": "obsidian-image-auto-upload-plugin",
+      "version": "4.1.0",
+      "name": "Image Auto Upload 图床上传",
+      "author": "renmu123",
+      "license": "MIT",
+      "description": "对接 PicGo 等本地/远程图床，自动将本地文章配图上传并替换为外链。",
+      "repo": "renmu123/obsidian-image-auto-upload-plugin",
+      "homepage": "https://github.com/renmu123/obsidian-image-auto-upload-plugin",
+      "downloads": 140480,
+      "categories": [
+        "media"
+      ],
+      "featured": true,
+      "featuredTag": "图床上传",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/obsidian-image-auto-upload-plugin/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/obsidian-image-auto-upload-plugin/"
+      }
+    },
+    {
+      "id": "obsidian-linter",
+      "version": "1.35.0",
+      "name": "Linter 文档排版规范",
+      "author": "platers",
+      "license": "MIT",
+      "description": "自动规范中英文空格、标题层级、列表缩进与 YAML Frontmatter。",
+      "repo": "platers/obsidian-linter",
+      "homepage": "https://github.com/platers/obsidian-linter",
+      "downloads": 1317941,
+      "categories": [
+        "writing"
+      ],
+      "featured": true,
+      "featuredTag": "Markdown 整理",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/obsidian-linter/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/obsidian-linter/"
+      }
+    },
+    {
+      "id": "editing-toolbar",
+      "version": "4.1.14",
+      "name": "Editing Toolbar 富文本工具栏",
+      "author": "PKM-er",
+      "license": "MIT",
+      "description": "类似 Word 的顶部/悬浮 Markdown 快捷格式工具栏，降低排版记忆成本。",
+      "repo": "PKM-er/obsidian-editing-toolbar",
+      "homepage": "https://github.com/PKM-er/obsidian-editing-toolbar",
+      "downloads": 2221622,
+      "categories": [
+        "writing"
+      ],
+      "featured": true,
+      "featuredTag": "编辑增强",
+      "compatLevel": "partial",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/editing-toolbar/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/editing-toolbar/"
+      }
+    },
+    {
+      "id": "obsidian-outliner",
+      "version": "4.12.1",
+      "name": "Outliner 大纲列表增强",
+      "author": "vslinko",
+      "license": "MIT",
+      "description": "强化列表大纲拖拽、缩进、上下移动与折叠体验，适合长文列提纲。",
+      "repo": "vslinko/obsidian-outliner",
+      "homepage": "https://github.com/vslinko/obsidian-outliner",
+      "downloads": 1517092,
+      "categories": [
+        "writing"
+      ],
+      "featured": true,
+      "featuredTag": "大纲写作",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/obsidian-outliner/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/obsidian-outliner/"
+      }
+    },
+    {
+      "id": "better-word-count",
+      "version": "0.10.1",
+      "name": "Better Word Count 字数统计",
+      "author": "lukeleppan",
+      "license": "MIT",
+      "description": "实时统计全文、选中文本与阅读时长，支持中英文混合精确计数。",
+      "repo": "lukeleppan/better-word-count",
+      "homepage": "https://github.com/lukeleppan/better-word-count",
+      "downloads": 639482,
+      "categories": [
+        "writing"
+      ],
+      "featured": true,
+      "featuredTag": "写作统计",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/better-word-count/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/better-word-count/"
+      }
+    },
+    {
+      "id": "obsidian-auto-link-title",
+      "version": "1.5.5",
+      "name": "Auto Link Title 链接自动抓标题",
+      "author": "zolrath",
+      "license": "MIT",
+      "description": "粘贴网页 URL 时自动抓取页面标题并生成标准 Markdown 链接。",
+      "repo": "zolrath/obsidian-auto-link-title",
+      "homepage": "https://github.com/zolrath/obsidian-auto-link-title",
+      "downloads": 396022,
+      "categories": [
+        "writing"
+      ],
+      "featured": true,
+      "featuredTag": "引用效率",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/obsidian-auto-link-title/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/obsidian-auto-link-title/"
+      }
+    },
+    {
+      "id": "table-editor-obsidian",
+      "version": "0.23.2",
+      "name": "Advanced Tables 高级表格",
+      "author": "tgrosinger",
+      "license": "MIT",
+      "description": "自动对齐 Markdown 表格列宽、快捷键增删行列与基础表格公式。",
+      "repo": "tgrosinger/advanced-tables-obsidian",
+      "homepage": "https://github.com/tgrosinger/advanced-tables-obsidian",
+      "downloads": 3394383,
+      "categories": [
+        "writing"
+      ],
+      "featured": true,
+      "featuredTag": "表格排版",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/table-editor-obsidian/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/table-editor-obsidian/"
+      }
+    },
+    {
+      "id": "obsidian-style-settings",
+      "version": "1.0.9",
+      "name": "Style Settings 主题样式微调",
+      "author": "mgmeyers",
+      "license": "MIT",
+      "description": "可视化调整已装插件与主题的字号、配色、间距等 CSS 变量。",
+      "repo": "mgmeyers/obsidian-style-settings",
+      "homepage": "https://github.com/mgmeyers/obsidian-style-settings",
+      "downloads": 2873066,
+      "categories": [
+        "writing"
+      ],
+      "featured": true,
+      "featuredTag": "主题排版",
+      "compatLevel": "partial",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/obsidian-style-settings/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/obsidian-style-settings/"
+      }
+    },
+    {
+      "id": "dataview",
+      "version": "0.5.68",
+      "name": "Dataview 笔记数据库查询",
+      "author": "blacksmithgu",
+      "license": "MIT",
+      "description": "把 Markdown 笔记库当成实时数据库，用类 SQL 语句自动汇总专题目录与选题表。",
+      "repo": "blacksmithgu/obsidian-dataview",
+      "homepage": "https://github.com/blacksmithgu/obsidian-dataview",
+      "downloads": 5378979,
+      "categories": [
+        "knowledge"
+      ],
+      "featured": true,
+      "featuredTag": "知识数据库",
+      "compatLevel": "partial",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/dataview/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/dataview/"
+      }
+    },
+    {
+      "id": "templater-obsidian",
+      "version": "2.27.0",
+      "name": "Templater 智能写作模板",
+      "author": "SilentVoid13",
+      "license": "MIT",
+      "description": "支持变量、日期、脚本片段的强大文章模板引擎，一键生成规范成稿骨架。",
+      "repo": "SilentVoid13/Templater",
+      "homepage": "https://github.com/SilentVoid13/Templater",
+      "downloads": 6271108,
+      "categories": [
+        "knowledge"
+      ],
+      "featured": true,
+      "featuredTag": "模板自动化",
+      "compatLevel": "partial",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/templater-obsidian/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/templater-obsidian/"
+      }
+    },
+    {
+      "id": "recent-files-obsidian",
+      "version": "1.7.10",
+      "name": "Recent Files 最近编辑文档",
+      "author": "tgrosinger",
+      "license": "MIT",
+      "description": "在侧边栏展示最近打开与修改过的笔记列表，多稿切换更顺手。",
+      "repo": "tgrosinger/recent-files-obsidian",
+      "homepage": "https://github.com/tgrosinger/recent-files-obsidian",
+      "downloads": 1243090,
+      "categories": [
+        "knowledge"
+      ],
+      "featured": true,
+      "featuredTag": "快捷导航",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/recent-files-obsidian/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/recent-files-obsidian/"
+      }
+    },
+    {
+      "id": "tag-wrangler",
+      "version": "0.6.5",
+      "name": "Tag Wrangler 标签批量管理",
+      "author": "pjeby",
+      "license": "ISC",
+      "description": "跨全库一键重命名、合并与检索 Markdown 标签。",
+      "repo": "pjeby/tag-wrangler",
+      "homepage": "https://github.com/pjeby/tag-wrangler",
+      "downloads": 1164525,
+      "categories": [
+        "knowledge"
+      ],
+      "featured": true,
+      "featuredTag": "标签治理",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/tag-wrangler/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/tag-wrangler/"
+      }
+    },
+    {
+      "id": "obsidian-excalidraw-plugin",
+      "version": "latest",
+      "name": "Excalidraw 手绘白板图解",
+      "author": "zsviczian",
+      "license": "MIT",
+      "description": "热门手绘风架构图与思维白板插件，适合为技术/科普文章绘制手绘示意图。",
+      "repo": "zsviczian/obsidian-excalidraw-plugin",
+      "homepage": "https://github.com/zsviczian/obsidian-excalidraw-plugin",
+      "downloads": 9154550,
+      "categories": [
+        "media"
+      ],
+      "featured": true,
+      "featuredTag": "手绘图解",
+      "compatLevel": "partial",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      }
+    },
+    {
+      "id": "calendar",
+      "version": "2.0.0",
+      "name": "Calendar 日历日记视图",
+      "author": "liamcain",
+      "license": "MIT",
+      "description": "用日历视图管理每日写作打卡、内容排期与灵感日记。",
+      "repo": "liamcain/obsidian-calendar-plugin",
+      "homepage": "https://github.com/liamcain/obsidian-calendar-plugin",
+      "downloads": 3299431,
+      "categories": [
+        "knowledge"
+      ],
+      "featured": true,
+      "featuredTag": "日记排期",
+      "compatLevel": "verified",
+      "pricing": {
+        "model": "free"
+      },
+      "delivery": {
+        "auth": "none"
+      },
+      "files": [
+        "manifest.json",
+        "main.js",
+        "styles.css"
+      ],
+      "downloadMirrors": {
+        "gitee": "https://gitee.com/yang02010/handraw-obsidian-plugins/raw/main/dist/calendar/",
+        "github": "https://raw.githubusercontent.com/yang0/handraw-obsidian-plugins/main/dist/calendar/"
+      }
+    }
+  ]
+}
